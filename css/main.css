@@ -1,0 +1,144 @@
+
+@font-face {
+    font-family: 'novecento_sans_widenormal';
+    src: url('fonts/novecentosanswide-normal-webfont.eot');
+    src: url('fonts/novecentosanswide-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/novecentosanswide-normal-webfont.woff2') format('woff2'),
+         url('fonts/novecentosanswide-normal-webfont.woff') format('woff'),
+         url('fonts/novecentosanswide-normal-webfont.ttf') format('truetype'),
+         url('fonts/novecentosanswide-normal-webfont.svg#novecento_sans_widenormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    hed {
+        font-size: 1.2em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    hed {
+        font-size: 1.2em; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 620px) { /* screen size until 500px */
+    hed {
+        font-size: 0.5em; /* 0.8x default size */
+        }
+    }
+
+#map{
+ /*  height: 250px;; */
+}
+
+#map-container { height: 365px; }
+
+.more_link{
+  color: red;
+  font-weight: bold;
+}
+
+.blurb_more{
+  display: none;
+}
+
+
+.panel-body{
+   box-shadow: 4px 4px 5px #cccccc;
+}
+
+
+#hed{
+  font-family: "novecento_sans_widenormal", Arial;
+  font-size: 4.0em;
+  color: #eeeeee;
+  position: relative;
+  top: -320px;
+  
+}
+
+#dek{
+  color: #eeeeee;
+  font-size: 1.1em;
+  position: relative;
+  top: -320px;
+  /* padding: 0px 135px 0px 135px; */
+}
+
+.nf_name, .feat_name{
+  font-family: "novecento_sans_widenormal", Arial;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nf_crim_disp, .feat_crim_disp{
+  color: red;
+  font-weight: bold;
+}
+
+/*
+.img-responsive{
+  min-width: 110px;
+  padding: 8px 8px;
+}
+*/
+
+#map{
+  background-color: #686867;
+}
+
+	/* normal formating */
+#table {
+	margin:0 auto; 
+	width:680px; 
+	font-family:arial; 
+	font-size:12px; 
+	color:#333;
+}
+
+	#table .row {
+		margin:15px 0 5px 0; 
+		border-bottom:1px dotted #c4c4c4;
+	}
+
+	#table .img {
+		width:160px; 
+		height:100px; 
+		float:left;
+	}
+
+	#table .img img {
+		width:160px; 
+		height:100px; 
+		border:2px solid #333;
+	}
+
+	#table .desc {
+		width:500px; 
+		height:120px; 
+		float:right;
+	}
+	
+	#table .desc a {
+		color:#2a8cba; 
+		text-decoration:none;
+	}
+		
+	#table .desc span {
+		width:50px;
+	}
+
+	#table h2 {
+		font-size:20px; 
+		margin:0 0 5px 0; 
+		padding:0;
+	}
+#table h2 a {text-decoration:none;}
+.clear {clear:both}
+
+
+.read_more{
+  cursor: pointer;
+  color: red;
+}
